@@ -17,15 +17,26 @@
 	
 		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
 
+
+
+
+	
+
+
 			<div id="footer-text" class="site-info">
-			Créé avec &hearts; par l’équipe DWWM P19.
-			</div><!-- .site-info -->
+				<a href="<?php echo esc_url( get_theme_mod('gridbox_child_info_sponsor_link') ); ?>">
+    				<?php echo esc_html( get_theme_mod('gridbox_child_info_sponsor_text') ); ?>
+  				</a>
+			</div>
+			<!-- .site-info -->
 			
 			<?php do_action( 'gridbox_footer_menu' ); ?>
 
 		</footer><!-- #colophon -->
 		
 	</div>
+
+
 
 </div><!-- #page -->
 
